@@ -15,4 +15,4 @@
 	url = https://github.com/ucb-bar/firrtl.git
 [submodule "boom"]
 	path = boom
-	url = https://github.com/ucb-bar/riscv-boom.git
+	url = https://github.com/riscv-boom/riscv-boom.git
