@@ -20,8 +20,8 @@ the RISC-V Rocket Core. For more information on Rocket Chip, please consult our 
 ## <a name="quick"></a> Quick Instructions
 
 ### Quick Compile Command
-	$ docker pull 
-	$ docker run -it 
+	$ docker pull dounghun22/rocket-chip-boom:latest
+	$ docker run -it --name [container_name] [-v mount] dounghun22/rocket-chip-boom:latest
 	$ cd / #Base Directory Must Be /
 	$ git clone https://github.com/dounghun22/rocket-chip
 	$ cd rocket-chip
