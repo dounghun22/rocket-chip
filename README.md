@@ -31,6 +31,7 @@ the RISC-V Rocket Core. For more information on Rocket Chip, please consult our 
 	$ ./build.sh
 	$ cd ../emulator
 	$ make clean && make -j 10 run CONFIG=BOOMConfig
+	$ #Generate Verilog Code
 	$ cd ../vsim
 	$ make clean && make verilog
 
