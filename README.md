@@ -27,8 +27,7 @@ the RISC-V Rocket Core. For more information on Rocket Chip, please consult our 
 	$ git clone https://github.com/dounghun22/rocket-chip
 	$ cd rocket-chip
 	$ git submodule update --init
-	$ cd boom & git reset --hard 657646eb23d893caf18a87a91175cea900ec1f05
-	$ cd ../riscv-tools
+	$ cd riscv-tools
 	$ git submodule update --init --recursive
 	$ ./build.sh
 	$ cd ../emulator
