@@ -17,6 +17,20 @@ the RISC-V Rocket Core. For more information on Rocket Chip, please consult our 
 
 ## <a name="quick"></a> Quick Instructions
 
+### Quick Compile Command
+	$ docker pull 
+	$ docker run -it 
+	$ git clone https://github.com/dounghun22/rocket-chip
+	$ cd rocket-chip
+	$ git submodule update --init
+	$ cd riscv-tools
+	$ git submodule update --init --recursive
+	$ ./build.sh
+	$ cd ../emulator
+	$ make clean && make -j 10 run CONFIG=BOOMConfig
+	$ cd ../vsim
+	$ make clean && make verilog
+
 ### Checkout The Code
 
     $ git clone https://github.com/ucb-bar/rocket-chip.git
