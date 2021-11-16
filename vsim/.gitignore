@@ -13,5 +13,4 @@ timestamp
 *.ucli
 *.a
 *.vcd
-generated-src
 output

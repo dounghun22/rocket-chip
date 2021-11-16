@@ -8,4 +8,5 @@ generated-src
 generated-src-debug
 kernel
 kernel.hex
-verilator/
+verilator/install
+verilator/src

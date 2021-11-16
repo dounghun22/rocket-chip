@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:y="http://www.yworks.com/xml/graphml">
+  <key for="node" id="n" yfiles.type="nodegraphics"/>
+  <key for="edge" id="e" yfiles.type="edgegraphics"/>
+  <graph id="G" edgedefault="directed">
+    <node id="1">
+      <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">ExampleRocketTop</y:NodeLabel></y:ShapeNode></data>
+      <graph id="1::" edgedefault="directed">
+        <node id="1::3"/>
+        <node id="1::2"/>
+        <node id="1::1"/>
+        <node id="1::0"/>
+        <node id="24">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">coreplex</y:NodeLabel></y:ShapeNode></data>
+          <graph id="24::" edgedefault="directed">
+            <node id="24::4"/>
+            <node id="24::3"/>
+            <node id="24::2"/>
+            <node id="24::1"/>
+            <node id="24::0"/>
+            <node id="45">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">TLBuffer</y:NodeLabel></y:ShapeNode></data>
+              <graph id="45::" edgedefault="directed">
+                <node id="45::0"/>
+              </graph>
+            </node>
+            <node id="41">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">RocketTile</y:NodeLabel></y:ShapeNode></data>
+              <graph id="41::" edgedefault="directed">
+                <node id="41::0"/>
+                <node id="43">
+                  <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">frontend</y:NodeLabel></y:ShapeNode></data>
+                  <graph id="43::" edgedefault="directed">
+                    <node id="43::0"/>
+                    <node id="44">
+                      <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">icache</y:NodeLabel></y:ShapeNode></data>
+                      <graph id="44::" edgedefault="directed">
+                        <node id="44::0"/>
+                      </graph>
+                    </node>
+                  </graph>
+                </node>
+                <node id="42">
+                  <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">dcache</y:NodeLabel></y:ShapeNode></data>
+                  <graph id="42::" edgedefault="directed">
+                    <node id="42::0"/>
+                  </graph>
+                </node>
+              </graph>
+            </node>
+            <node id="40">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">clint_TLFragmenter</y:NodeLabel></y:ShapeNode></data>
+              <graph id="40::" edgedefault="directed">
+                <node id="40::0"/>
+              </graph>
+            </node>
+            <node id="39">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">plic_TLFragmenter</y:NodeLabel></y:ShapeNode></data>
+              <graph id="39::" edgedefault="directed">
+                <node id="39::0"/>
+              </graph>
+            </node>
+            <node id="38">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">debug_TLFragmenter</y:NodeLabel></y:ShapeNode></data>
+              <graph id="38::" edgedefault="directed">
+                <node id="38::0"/>
+              </graph>
+            </node>
+            <node id="37">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">clint</y:NodeLabel></y:ShapeNode></data>
+              <graph id="37::" edgedefault="directed">
+                <node id="37::0"/>
+              </graph>
+            </node>
+            <node id="36">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">plic</y:NodeLabel></y:ShapeNode></data>
+              <graph id="36::" edgedefault="directed">
+                <node id="36::1"/>
+                <node id="36::0"/>
+              </graph>
+            </node>
+            <node id="35">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">debug</y:NodeLabel></y:ShapeNode></data>
+              <graph id="35::" edgedefault="directed">
+                <node id="35::0"/>
+              </graph>
+            </node>
+            <node id="34">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">mem_0_TLFilter</y:NodeLabel></y:ShapeNode></data>
+              <graph id="34::" edgedefault="directed">
+                <node id="34::0"/>
+              </graph>
+            </node>
+            <node id="33">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">mem_0_TLWidthWidget</y:NodeLabel></y:ShapeNode></data>
+              <graph id="33::" edgedefault="directed">
+                <node id="33::0"/>
+              </graph>
+            </node>
+            <node id="32">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">mem_0_TLBroadcast</y:NodeLabel></y:ShapeNode></data>
+              <graph id="32::" edgedefault="directed">
+                <node id="32::0"/>
+              </graph>
+            </node>
+            <node id="31">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">socBus_TLWidthWidget</y:NodeLabel></y:ShapeNode></data>
+              <graph id="31::" edgedefault="directed">
+                <node id="31::0"/>
+              </graph>
+            </node>
+            <node id="30">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">cbus_TLBuffer</y:NodeLabel></y:ShapeNode></data>
+              <graph id="30::" edgedefault="directed">
+                <node id="30::0"/>
+              </graph>
+            </node>
+            <node id="29">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">cbus_TLAtomicAutomata</y:NodeLabel></y:ShapeNode></data>
+              <graph id="29::" edgedefault="directed">
+                <node id="29::0"/>
+              </graph>
+            </node>
+            <node id="28">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">cbus_TLWidthWidget</y:NodeLabel></y:ShapeNode></data>
+              <graph id="28::" edgedefault="directed">
+                <node id="28::0"/>
+              </graph>
+            </node>
+            <node id="27">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">intBar</y:NodeLabel></y:ShapeNode></data>
+              <graph id="27::" edgedefault="directed">
+                <node id="27::0"/>
+              </graph>
+            </node>
+            <node id="26">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">cbus</y:NodeLabel></y:ShapeNode></data>
+              <graph id="26::" edgedefault="directed">
+                <node id="26::0"/>
+              </graph>
+            </node>
+            <node id="25">
+              <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">l1tol2</y:NodeLabel></y:ShapeNode></data>
+              <graph id="25::" edgedefault="directed">
+                <node id="25::0"/>
+              </graph>
+            </node>
+          </graph>
+        </node>
+        <node id="23">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">zeros_0_TLFragmenter</y:NodeLabel></y:ShapeNode></data>
+          <graph id="23::" edgedefault="directed">
+            <node id="23::0"/>
+          </graph>
+        </node>
+        <node id="22">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">zeros_0</y:NodeLabel></y:ShapeNode></data>
+          <graph id="22::" edgedefault="directed">
+            <node id="22::0"/>
+          </graph>
+        </node>
+        <node id="21">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">bootrom_TLFragmenter</y:NodeLabel></y:ShapeNode></data>
+          <graph id="21::" edgedefault="directed">
+            <node id="21::0"/>
+          </graph>
+        </node>
+        <node id="20">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">bootrom</y:NodeLabel></y:ShapeNode></data>
+          <graph id="20::" edgedefault="directed">
+            <node id="20::0"/>
+          </graph>
+        </node>
+        <node id="19">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">l1tol2_TLSourceShrinker</y:NodeLabel></y:ShapeNode></data>
+          <graph id="19::" edgedefault="directed">
+            <node id="19::0"/>
+          </graph>
+        </node>
+        <node id="18">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">l1tol2_TLWidthWidget</y:NodeLabel></y:ShapeNode></data>
+          <graph id="18::" edgedefault="directed">
+            <node id="18::0"/>
+          </graph>
+        </node>
+        <node id="17">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">AXI4ToTL</y:NodeLabel></y:ShapeNode></data>
+          <graph id="17::" edgedefault="directed">
+            <node id="17::0"/>
+          </graph>
+        </node>
+        <node id="16">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">AXI4Fragmenter</y:NodeLabel></y:ShapeNode></data>
+          <graph id="16::" edgedefault="directed">
+            <node id="16::0"/>
+          </graph>
+        </node>
+        <node id="15">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">AXI4Buffer</y:NodeLabel></y:ShapeNode></data>
+          <graph id="15::" edgedefault="directed">
+            <node id="15::0"/>
+          </graph>
+        </node>
+        <node id="14">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">TLToAXI4</y:NodeLabel></y:ShapeNode></data>
+          <graph id="14::" edgedefault="directed">
+            <node id="14::0"/>
+          </graph>
+        </node>
+        <node id="13">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">TLWidthWidget</y:NodeLabel></y:ShapeNode></data>
+          <graph id="13::" edgedefault="directed">
+            <node id="13::0"/>
+          </graph>
+        </node>
+        <node id="12">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">rocketchipPeripheryMasterAXI4Membuffer</y:NodeLabel></y:ShapeNode></data>
+          <graph id="12::" edgedefault="directed">
+            <node id="12::0"/>
+          </graph>
+        </node>
+        <node id="11">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">rocketchipPeripheryMasterAXI4Memconverter</y:NodeLabel></y:ShapeNode></data>
+          <graph id="11::" edgedefault="directed">
+            <node id="11::0"/>
+          </graph>
+        </node>
+        <node id="10">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">extInterruptXing</y:NodeLabel></y:ShapeNode></data>
+          <graph id="10::" edgedefault="directed">
+            <node id="10::0"/>
+          </graph>
+        </node>
+        <node id="9">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">bootrom_TLBuffer</y:NodeLabel></y:ShapeNode></data>
+          <graph id="9::" edgedefault="directed">
+            <node id="9::0"/>
+          </graph>
+        </node>
+        <node id="8">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">bootrom_TLWidthWidget</y:NodeLabel></y:ShapeNode></data>
+          <graph id="8::" edgedefault="directed">
+            <node id="8::0"/>
+          </graph>
+        </node>
+        <node id="7">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">bootrom_TLAtomicAutomata</y:NodeLabel></y:ShapeNode></data>
+          <graph id="7::" edgedefault="directed">
+            <node id="7::0"/>
+          </graph>
+        </node>
+        <node id="6">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">mem_0</y:NodeLabel></y:ShapeNode></data>
+          <graph id="6::" edgedefault="directed">
+            <node id="6::0"/>
+          </graph>
+        </node>
+        <node id="5">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">l2</y:NodeLabel></y:ShapeNode></data>
+          <graph id="5::" edgedefault="directed">
+            <node id="5::0"/>
+          </graph>
+        </node>
+        <node id="4">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">intBus</y:NodeLabel></y:ShapeNode></data>
+          <graph id="4::" edgedefault="directed">
+            <node id="4::0"/>
+          </graph>
+        </node>
+        <node id="3">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">peripheryBus</y:NodeLabel></y:ShapeNode></data>
+          <graph id="3::" edgedefault="directed">
+            <node id="3::0"/>
+          </graph>
+        </node>
+        <node id="2">
+          <data key="n"><y:ShapeNode><y:NodeLabel modelName="sides" modelPosition="w" rotationAngle="270.0">socBus</y:NodeLabel></y:ShapeNode></data>
+          <graph id="2::" edgedefault="directed">
+            <node id="2::0"/>
+          </graph>
+        </node>
+      </graph>
+    </node>
+    <edge source="1::3" target="16::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#00ccff" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="1::0" target="10::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#0000ff" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">2</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="24::3" target="6::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="24::2" target="25::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="24::1" target="27::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#0000ff" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">2</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="24::0" target="2::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="45::0" target="25::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="45::0" target="25::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="41::0" target="45::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="41::0" target="45::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="43::0" target="41::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="44::0" target="43::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="42::0" target="41::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="40::0" target="37::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="39::0" target="36::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="38::0" target="35::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="36::1" target="24::4"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#0000ff" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">2</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="34::0" target="24::3"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="33::0" target="34::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="32::0" target="33::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="31::0" target="24::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="30::0" target="26::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="29::0" target="30::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="28::0" target="29::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="27::0" target="36::1"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#0000ff" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">2</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="26::0" target="38::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="26::0" target="39::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="26::0" target="40::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="25::0" target="28::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="25::0" target="31::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="25::0" target="32::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="23::0" target="22::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="21::0" target="20::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">32</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="19::0" target="5::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="18::0" target="19::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="17::0" target="18::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="16::0" target="17::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#00ccff" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="15::0" target="1::2"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#00ccff" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="14::0" target="15::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#00ccff" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="13::0" target="14::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="12::0" target="1::1"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#00ccff" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="11::0" target="12::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#00ccff" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="10::0" target="4::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#0000ff" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">2</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="9::0" target="3::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">32</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="8::0" target="9::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">32</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="7::0" target="8::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="6::0" target="11::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="6::0" target="23::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">64</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="5::0" target="24::2"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="4::0" target="24::1"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#0000ff" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">2</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="3::0" target="21::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">32</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="2::0" target="7::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+    <edge source="2::0" target="13::0"><data key="e"><y:PolyLineEdge><y:Arrows source="none" target="standard"/><y:LineStyle color="#000000" type="line" width="1.0"/><y:EdgeLabel modelName="centered" rotationAngle="270.0">128</y:EdgeLabel></y:PolyLineEdge></data></edge>
+  </graph>
+</graphml>
